@@ -1,0 +1,19 @@
+body
+{
+background-color: burlywood;
+  
+}
+.formulaire
+{
+  flex: auto;
+  align-content:  first baseline;
+  scroll-margin:  initial;
+  font-family: "time new roman",sans-serif
+    
+}
+input
+{
+backface-visibility: visible;
+  border-style: dashed;
+  
+}

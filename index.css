@@ -1,0 +1,103 @@
+body
+{
+    min-width: 1024px;
+    min-height: 768px;
+}
+
+        /*
+         Css de la partie supérieur du site: barre de recherche,
+         -zone de saisie d'information de connexion
+         -barre de catégorie des articles 
+        */
+header
+{
+    min-height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+.header_section
+{
+    display: flex;
+    flex-warp: warp;
+    justify-content: space-between;
+    background-color: green;
+}
+#recherche
+{
+    width: 70%;
+   magin: auto;
+}
+.zone_recherche
+{
+    margin-left: 10%;
+    width: 70%;
+    margin: 2%;
+}
+#connexion
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header_nav
+{
+    border-top: groove 5px;
+    display: flex;
+    justify-content: space-around;
+}
+a:hover
+{
+    font-family: "Impact";
+    font-size: 130%;
+    font-weight: bold;
+    border-left: groove 5px;
+    border-right: groove 5px;
+    color: pink;
+}
+a
+{
+    font-family: "Impact","Comic Sans Ms";
+    font-size: 100%;
+    text-decoration: none;
+    color: red;
+}
+
+        /*
+         Css de la zone principale du site: bloc qui contient les section produit et iframe( pour la pub)
+        */
+div
+{
+    height: 640px;
+    border: solid green;
+    display: flex;
+    justify-content: space-around;	
+}
+.div_article
+{
+    border: solid red;
+    display: flex;
+    flex-direction: column;
+}
+.section_article
+{
+    border: solid blue;
+    display: flex;
+    flex-warp: warp;
+    justify-content: space-around;
+}
+article
+{
+    border: solid grey;
+    border-radius: 10%;
+    width: 256px;
+    height: 256px;
+}
+
+iframe
+{
+    border: solid red;
+    border-radius: 5%;
+    height: 100%;
+}
